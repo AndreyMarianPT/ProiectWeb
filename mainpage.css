@@ -1,0 +1,149 @@
+body {
+ margin:0px;
+ background: lightyellow;
+}
+
+
+
+
+
+.Absolut{
+    display: grid;
+    grid-template-columns: repeat(4, 100px) ;
+    grid-row-gap:100px ;
+    background-color: red;
+    grid-auto-rows: minmax(70px,130px);
+    grid-column-gap:40px;
+    border: 1px solid #000000;
+ 
+   }
+
+
+.pentru-butoane{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 390px) ;
+    grid-column-gap:40px;
+    padding: 10px;
+     text-align: center;
+  padding: 10px 20px;
+ 
+
+
+
+}
+#numele{
+font-size: 60px;
+font-family: fantasy;
+color: green;
+position: relative;
+bottom: 40px;
+left: 10px;
+
+
+}
+
+#Mijloc{
+ width: 130px;
+ height: 50px;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-family: fantasy;
+ background: blanchedalmond;
+position: relative; 
+ top:50px;
+ right:260px;
+ border-radius: 130px;
+
+
+}
+
+#stanga{
+ width: 130px;
+ height: 50px;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-family: fantasy;
+ background: blanchedalmond;
+ padding: 10px 20px;
+  position: relative;
+ top:50px;
+ right:150px;
+ border-radius: 130px;
+}
+
+#io{
+
+ position:relative;
+ right:30px;
+
+
+}
+#pass
+{
+   position:relative;
+ right:30px;
+
+}
+
+
+
+
+#dreapta{
+  width: 130px;
+ height: 50px;
+ font-size: 17px;
+ text-transform: uppercase;
+ font-family: fantasy;
+ background: blanchedalmond;
+ padding: 5px 20px;
+  position: relative;
+ top:50px;
+ right:850px;
+ border-radius: 130px;
+}
+
+.form{
+
+  position: absolute;
+   padding: 20px 20px;
+  bottom:80%;
+  left:75%;
+
+}
+
+.form h1{
+position: relative;
+top: 19px;
+right: 26px;
+
+}
+#txtField{
+  position: relative;
+  bottom:2px;
+  left: 2px;
+
+}
+
+input[type="submit"]{
+border: 1px solid;
+border-radius: 25px;
+background-color: green;
+
+
+}
+.signupLink{
+text-align: center;
+
+}
+.signupLink a{
+
+  color:blue;
+  text-decoration: none;
+}
+ 
+ .signupLink a :hover{
+  text-decoration: underline;
+
+}
+
